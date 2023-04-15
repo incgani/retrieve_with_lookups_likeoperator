@@ -20,4 +20,5 @@ from app.views import *
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('insert_emp/',insert_emp,name='insert_emp'),
+    path('update_emptable/',update_emptable,name='update_emptable'),
 ]
